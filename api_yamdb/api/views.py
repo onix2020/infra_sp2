@@ -12,11 +12,11 @@ from rest_framework_simplejwt.tokens import AccessToken
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
 from api.serializers import (
-    CategorySerializer, 
+    CategorySerializer,
     CommentSerializer,
-    GenreSerializer, 
+    GenreSerializer,
     GetTokenSerializer,
-    ReviewSerializer, 
+    ReviewSerializer,
     SignUpSerializer,
     TitleCreateSerializer,
     TitleSerializer,
