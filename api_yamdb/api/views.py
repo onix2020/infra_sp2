@@ -20,9 +20,6 @@ from .filters import TitleFilter
 from .permissions import AuthorStaffOrReadOnly, IsAdmin, IsAdminOrReadOnly
 
 
-
-
-
 class UpdateDeleteViewSet(mixins.CreateModelMixin,
                           mixins.ListModelMixin,
                           mixins.DestroyModelMixin,
